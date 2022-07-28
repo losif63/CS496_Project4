@@ -1,0 +1,100 @@
+@font-face {
+  font-family: "ROKAFSansMedium";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts2201-3@1.0/ROKAFSansMedium.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.container {
+  font-family: "ROKAFSansMedium";
+
+  height: 93vh;
+  background-color: #e5e5e5;
+}
+
+.content {
+  height: 100%;
+  margin: 0px 20%;
+
+  display: flex;
+  flex-direction: column;
+
+  background-color: #e5e5e5;
+}
+
+.textMessage {
+  height: 30%;
+
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+
+  font-size: 20px;
+
+  color: #601986;
+  background-color: #e5e5e5;
+}
+
+.locationHolder {
+  height: 65%;
+
+  margin: 0px 20px 10px 20px;
+
+  display: flex;
+  flex-direction: column;
+
+  border-radius: 20px;
+
+  box-shadow: 0px 5px 10px -10px;
+}
+
+.locationHeader {
+  height: 15%;
+  display: flex;
+
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.locationName {
+  width: 76%;
+
+  /* 세로 정렬 */
+  display: flex;
+  align-items: center;
+
+  font-size: 20px;
+
+  padding-left: 20px;
+  font-weight: bold;
+}
+
+.switchListView {
+  width: 24%;
+  margin: 10px;
+
+  border-radius: 10px;
+
+  display: flex;
+
+  background-color: #f7f6f8;
+}
+
+.forMap,
+.forList {
+  width: 50%;
+
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+
+  padding: 0px 15px;
+
+  font-size: 15px;
+}
+
+.forMap {
+  border-right: 1px solid #e5e5e5;
+}
